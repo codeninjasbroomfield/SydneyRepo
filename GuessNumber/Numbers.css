@@ -1,0 +1,78 @@
+#mainBox{
+	width: 500px;
+	height:auto;
+	background-color: #112f41;
+	border-radius: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+p{
+	text-align: center;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+	color: white;
+	margin-bottom: 5px;
+	text-transform: uppercase
+}
+#interactive{
+	display: block;
+	text-align: center;
+	padding:15px;
+	margin-bottom: 10px;
+}
+#guess{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+	border-radius: 10px;
+	border: none;
+	width: 70px;
+	height: 90px;
+	vertical-align: middle;
+	background-color: #0894a1;
+}
+#hand{
+	padding-left: 20px;
+	vertical-align: middle;
+	font-size:75px;
+	color: white;
+}
+#hand span{
+	font-size:20px;
+	color:white;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-top: 20px;
+	text-align:center;
+	z-index: +1;
+}
+#feedback{
+	border-radius: 30px;
+	padding: 1px 40px;
+	margin: 0 auto;
+	background-color: #ed553b;
+	width: 300px;
+	height: 140px;
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	border: 6px solid white;
+	box-shadow: 0px 0px 12px black;
+}
+#response1{
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 600;
+	padding: 0;
+}
+#response2{
+	font-size: 35px;
+	line-height: 35px;
+	font-weight: 900;
+	padding: 0;
+	text-transform: uppercase;
+}
